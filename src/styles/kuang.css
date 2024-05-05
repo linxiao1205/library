@@ -1,0 +1,49 @@
+.el-input {
+  margin: 15px 5px;
+}
+
+.kuang {
+  padding: 20px;
+  height: 100%;
+  width: 100%;
+  .btn {
+    padding: 5px 9px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+
+  .btn1 {
+    background-color: var(--el-color-primary);
+    border-color: var(--el-color-primary);
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  .btn2 {
+    background-color: #ee3f4d;
+    border-color: #ee3f4d;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .el-card__header {
+    padding: 10px 20px;
+  }
+  .el-form-item__label {
+    padding: 0 5px 0 22px;
+  }
+}
+
+.el-select {
+  width: 150px;
+}
+
+.el-table :deep(.el-table__cell) {
+  color: #000;
+}
+
+.fenye {
+  margin-top: 10px;
+}

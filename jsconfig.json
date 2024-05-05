@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"] //设置目录别名，直接识别 @/路径
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

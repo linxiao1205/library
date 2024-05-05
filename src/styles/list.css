@@ -1,0 +1,21 @@
+.add {
+  background-color: #96c24e;
+  border: 1px solid;
+  color: #fff;
+  margin-left: 5px;
+  cursor: pointer;
+  width: 55px;
+  height: 30px;
+  margin-bottom: 3px;
+}
+.el-card {
+  height: 620px;
+}
+.el-table :deep(.el-table__cell) {
+  color: #000;
+}
+.el-form {
+  .el-form-item {
+    align-items: baseline;
+  }
+}
