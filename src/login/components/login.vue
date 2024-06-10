@@ -34,8 +34,8 @@
               />
             </el-form-item>
             <el-radio-group v-model="ruleForm.role">
-              <el-radio value="1">管理员</el-radio>
-              <el-radio value="2" checked>用户</el-radio>
+              <el-radio value="1" checked>管理员</el-radio>
+              <el-radio value="2">用户</el-radio>
             </el-radio-group>
             <div class="bao">
               <div @click="isShow = !isShow">立即注册</div>
@@ -186,7 +186,7 @@ const ruleFormRef = ref()
 const ruleForm = ref({
   uname: '',
   password: '',
-  role: '2',
+  role: '1',
 })
 // 注册表单数据
 const ruleFormRefs = ref()
@@ -194,7 +194,7 @@ const ruleForms = reactive({
   uname: '',
   password: '',
   checkPass: '',
-  role: '2',
+  role: '1',
 })
 //忘记密码
 const formEdit = ref()
@@ -202,7 +202,7 @@ const form = reactive({
   uname: '',
   password: '',
   checkPass: '',
-  role: '2',
+  role: '1',
 })
 // 注册表单的自定义规则
 const validatePass = (rule, value, callback) => {
